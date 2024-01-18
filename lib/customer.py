@@ -1,3 +1,7 @@
+# customer.py
+
+from review import Review
+
 class Customer:
     all_customers = []
 
@@ -7,10 +11,10 @@ class Customer:
         self.reviews = []
         Customer.all_customers.append(self)
 
-    def given_name(self):
+    def get_given_name(self):
         return self.given_name
 
-    def family_name(self):
+    def get_family_name(self):
         return self.family_name
 
     def full_name(self):
@@ -20,7 +24,7 @@ class Customer:
         return list({review.restaurant for review in self.reviews})
 
     def add_review(self, restaurant, rating):
-        new_review = "Review(self, restaurant, rating)"
+        new_review = Review(self, restaurant, rating)
         self.reviews.append(new_review)
 
     @classmethod

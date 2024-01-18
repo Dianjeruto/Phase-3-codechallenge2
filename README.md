@@ -1,36 +1,36 @@
-Restaurants--without-SQLAlchemy
+# Restaurants--without-SQLAlchemy
 This code challenge consists of three modules Restaurant, Customer and Review.
 
-Table of content
+## Table of content
 Description
 Installation requirement
 Usage
 Technology used
 Licence
 Authors info
-DESCRIPTION
+
+
+## DESCRIPTION
 The challenge consists of the deliverables, Object Relationship Methods and Aggregate and Association Methods. Navigate through each part to complete the challenge.
 
-Installation process
-Git clone the repository using the comand
+## Installation process
+Git clone the repository using the command
 git clone (the repo url)
-Open the repo in the code editor using the command
+open the repository in the vscode
 code .
 In terminal run the command
-pipenv install
+``` pipenv install```
 and follow the commands given to install the necessary pip files
 
-Usage
-Python shell
+## Usage
+```Python shell```
 Copy and paste the codes in the python shell.
-Code runner
-Use the code runner in vs code to test your codes.
 
-TECHNOLOGY USED
+## TECHNOLOGY USED
 python
 
-LICENSE
-MIT license
+## LICENSE
+MIT license[LICENSE]
 
 AUTHOR;
 DIAN JERUTO
