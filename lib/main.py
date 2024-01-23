@@ -6,9 +6,9 @@ def main():
     # Create customers
     customer1 = Customer("John", "Doe")
     customer2 = Customer("Alice", "Smith")
-    customer3 = Customer("Diana", "Johnson")
-    customer4 = Customer("Hesbon", "Williams")
-    customer5 = Customer("Ian", "Brown")
+    customer3 = Customer("Dian", "Johnson")
+    customer4 = Customer("mercy", "Williams")
+    customer5 = Customer("Ian", "Brownex")
 
     # Create restaurants
     restaurant1 = Restaurant("Tasty Treats")
